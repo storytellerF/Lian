@@ -1,4 +1,4 @@
-package com.example.testdrawabletext
+package com.storytellerF.lib
 
 import org.junit.Test
 

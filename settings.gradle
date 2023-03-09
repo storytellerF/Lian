@@ -12,5 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "testDrawableText"
+rootProject.name = "Lian"
 include ':app'
+include ':lib'

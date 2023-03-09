@@ -4,17 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@android:color/holo_purple"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="300px"
+        android:layout_width="500px"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:breakStrategy="simple"
         android:ellipsize="end"
         android:maxLines="1"
         android:text="Hello World!"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -22,13 +23,14 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="300px"
+        android:layout_width="500px"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:background="@color/white"
+        android:breakStrategy="simple"
         android:ellipsize="end"
         android:maxLines="1"
         android:text="Hello World!"
+        android:textSize="20sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView" />
