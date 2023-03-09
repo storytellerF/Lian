@@ -24,11 +24,12 @@ class MainActivity : AppCompatActivity() {
             this.maxLines = maxLines
         }
         val drawable = ContextCompat.getDrawable(this, R.drawable.fan_circle_background)!!
+        val strokeDrawable = ContextCompat.getDrawable(this, R.drawable.fan_circle_storke)!!
         val combine = combine(
             text,
             drawableText.context.span(drawableRes),
             drawableText.context.span(drawableRes),
-            FanCircleSpan(drawable)
+            FanCircleSpan(drawable, strokeDrawable)
         )
         drawableText.lian(combine)
 

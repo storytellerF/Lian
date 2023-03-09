@@ -2,5 +2,5 @@
 <resources>
     <item name="fan_circle_radius" type="dimen">4dp</item>
     <item name="fan_circle_inner_radius" type="dimen">3dp</item>
-    <item name="fan_circle_stroke_width" type="dimen">1dp</item>
+    <item name="fan_circle_stroke_width" type="dimen">0.6dp</item>
 </resources>
